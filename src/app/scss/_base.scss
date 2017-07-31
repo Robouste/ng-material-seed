@@ -36,6 +36,21 @@ h6 {
 	@extend .block-shadow;
 
 	.block-header, .block-content, .block-footer {
+		overflow: hidden;
+	}
+
+	.block-header {
+		color: white;
+		background: $primary-color;
+		padding: 20px 15px;
+	}
+
+	.block-content {
 		padding: 15px;
+	}
+
+	.block-footer {
+		border-top: solid 1px $primary-color;
+		padding: 5px 15px;
 	}
 }
