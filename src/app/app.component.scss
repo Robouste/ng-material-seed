@@ -11,7 +11,7 @@
 	height: 100vh;
 
 	.page-content {
-		padding: 15px;
+		padding: 30px 15px;
 		height: calc(100vh - #{$toolbar-height});
 		@extend .site-shadow;
 	}

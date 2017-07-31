@@ -10,5 +10,16 @@
 		color: white;
 		// padding: 5px;
 		min-width: 36px;
+		float: left;
+	}
+
+	.toolbar-title {
+		color: #fff;
+		display: inline-block;
+		font-size: 2.1rem;
+		line-height: 2.1rem;
+		padding: 0;
+		margin: 0;
+		margin-left: 15px;
 	}
 }
