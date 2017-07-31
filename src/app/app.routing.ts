@@ -11,5 +11,8 @@ export const ROUTES: Routes = [
 	},
 	{
 		path: 'test', component: TestComponent
+	},
+	{
+		path: 'test-1', component: TestComponent
 	}
 ];

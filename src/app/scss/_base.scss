@@ -6,3 +6,20 @@ html, body {
 * {
 	box-sizing: border-box;
 }
+
+.mat-icon {
+	vertical-align: bottom;
+}
+
+.page-title {
+	margin-top: 0;
+}
+
+.block {
+	background: white;
+	@extend .block-shadow;
+
+	.block-header, .block-content, .block-footer {
+		padding: 15px;
+	}
+}

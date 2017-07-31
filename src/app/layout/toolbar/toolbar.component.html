@@ -1,5 +1,6 @@
 <div class="toolbar">
 	<button md-button class="nav-button" (click)="toggleSidenav()">
-		<md-icon>menu</md-icon>
+		<md-icon *ngIf="!sidenav.opened">menu</md-icon>
+		<md-icon *ngIf="sidenav.opened">close</md-icon>
 	</button>
 </div>
