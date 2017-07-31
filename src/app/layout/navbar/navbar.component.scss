@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+
+.navbar {
+	width: $navbar-width;
+	height: 100vh;
+	float: left;
+	background: $primary-color;
+	color: white;
+
+	.navbar-header {
+		padding: 5px;
+		text-align: center;
+	}
+	.navbar-content {
+		ul.navbar-nav {
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0;
+
+			li {
+				width: 100%;
+				height: 50px;
+				padding: 15px;
+				cursor: pointer;
+
+				&:hover, &.active {
+					background: $accent-color;
+				}
+
+				a {
+					display: block;
+				}
+			}
+		}
+	}
+}
