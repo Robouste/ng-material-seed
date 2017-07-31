@@ -1,6 +1,9 @@
 @import "../app/scss/variables";
 
+.sidenav-container {
+	height: 100vh;
+}
+
 .app-content {
 	width: 100%;
-	margin-left: $navbar-width;
 }

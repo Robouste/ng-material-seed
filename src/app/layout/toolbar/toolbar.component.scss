@@ -2,6 +2,13 @@
 
 .toolbar {
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background: $primary-color;
+	padding: 20px 15px;
+
+	.nav-button {
+		color: white;
+		// padding: 5px;
+		min-width: 36px;
+	}
 }

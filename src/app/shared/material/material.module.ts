@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
-import { MdTabsModule } from '@angular/material';
+import { MdTabsModule, MdSidenavModule, MdButtonModule, MdIconModule } from '@angular/material';
 
 const MODULES = [
-	MdTabsModule
+	MdTabsModule,
+	MdSidenavModule,
+	MdButtonModule,
+	MdIconModule
 ];
 
 @NgModule({
-	imports: [],
+	imports: [MODULES],
 	exports: [MODULES],
 	declarations: [],
 	providers: [],
