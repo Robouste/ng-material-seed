@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { MdSidenav } from '@angular/material';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+	selector: 'app-navbar',
+	templateUrl: './navbar.component.html',
+	styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+	@Input() sidenav: MdSidenav;
 
-  ngOnInit() {
-  }
+	constructor() { }
+
+	ngOnInit() {
+	}
+
+	closeSidenav() {
+		this.sidenav.close();
+	}
 
 }

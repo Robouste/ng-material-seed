@@ -1,6 +1,6 @@
 <md-sidenav-container class="sidenav-container">
 	<md-sidenav class="sidenav" #sidenav mode="side" opened="true">
-		<app-navbar></app-navbar>
+		<app-navbar [sidenav]="sidenav"></app-navbar>
 	</md-sidenav>
 	<div class="app-content">
 		<app-toolbar [sidenav]="sidenav" ></app-toolbar>

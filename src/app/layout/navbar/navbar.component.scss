@@ -9,9 +9,20 @@
 	color: white;
 
 	.navbar-header {
-		padding: 5px;
-		text-align: center;
+		padding: 5px 5px 5px 15px;
 		background: $accent-color;
+		overflow: hidden;
+
+		.app-title {
+			display: inline-block;
+		}
+
+		.sidenav-close-button {
+			float: right;
+			color: white;
+			min-width: 36px;
+			margin: 16px 0;
+		}
 	}
 	.navbar-content {
 		// @extend .roof-shadow;

@@ -41,8 +41,8 @@ export class ToolbarComponent implements OnInit {
 			});
 	}
 
-	toggleSidenav() {
-		this.sidenav.opened = !this.sidenav.opened;
+	openSidenav() {
+		this.sidenav.open();
 	}
 
 }
