@@ -1,14 +1,14 @@
 @import "../../scss/variables";
 @import "../../scss/mixins";
 
-.navbar {
-	width: $navbar-width;
+.sidenav {
+	width: $sidenav-width;
 	height: 100vh;
 	float: left;
 	background: $primary-color;
 	color: white;
 
-	.navbar-header {
+	.sidenav-header {
 		padding: 5px 5px 5px 15px;
 		background: $accent-color;
 		overflow: hidden;
@@ -24,11 +24,11 @@
 			margin: 16px 0;
 		}
 	}
-	.navbar-content {
+	.sidenav-content {
 		// @extend .roof-shadow;
 		overflow: hidden;
 
-		ul.navbar-nav {
+		ul.sidenav-nav {
 			list-style: none;
 			margin-left: 0;
 			padding: 10px 0;

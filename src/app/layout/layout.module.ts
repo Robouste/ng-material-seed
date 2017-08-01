@@ -1,14 +1,14 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-import { NavbarComponent } from './navbar/navbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
 	imports: [SharedModule, RouterModule],
-	exports: [NavbarComponent, ToolbarComponent],
-	declarations: [NavbarComponent, ToolbarComponent],
+	exports: [SidenavComponent, ToolbarComponent],
+	declarations: [SidenavComponent, ToolbarComponent],
 	providers: [],
 })
 export class LayoutModule { }

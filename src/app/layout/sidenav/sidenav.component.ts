@@ -2,11 +2,11 @@ import { Component, OnInit, Input } from '@angular/core';
 import { MdSidenav } from '@angular/material';
 
 @Component({
-	selector: 'app-navbar',
-	templateUrl: './navbar.component.html',
-	styleUrls: ['./navbar.component.scss']
+	selector: 'app-sidenav',
+	templateUrl: './sidenav.component.html',
+	styleUrls: ['./sidenav.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class SidenavComponent implements OnInit {
 
 	@Input() sidenav: MdSidenav;
 
